@@ -1,0 +1,307 @@
+all files to mediaquery
+text bar first width to mediaquery
+onaudio query
+query art image
+http 
+seaerch bar musico
+  #flutter_lints: ^1.0.0
+to git
+popupup menu icon auto
+poppins to everyone
+flaoting action button
+
+
+
+
+
+
+
+'assets/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png'
+
+ 
+
+
+
+
+// import 'package:flutter/material.dart';
+// import 'package:musico/pages/PageAlbums.dart';
+// import 'package:musico/pages/PageArtists.dart';
+// import 'package:musico/pages/PageMusic.dart';
+// import 'package:musico/pages/PagePlaylists.dart';
+// import 'package:musico/pages/PageSongs.dart';
+// import 'package:musico/customs/customs.dart';
+// import 'package:musico/pages/PageSearch.dart';
+// import 'package:musico/pages/PageSettings.dart';
+
+// void main() {
+//   runApp(const Musico());
+// }
+
+// class Musico extends StatelessWidget {
+//   const Musico({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//         debugShowCheckedModeBanner: false,
+//         title: 'Musico',
+
+//         // theme: ThemeData().copyWith(
+//         //   colorScheme: ThemeData()
+//         //       .colorScheme
+//         //       .copyWith(secondary: Colors.white, primary: Colors.white),
+//         //   iconTheme: IconThemeData(color: Colors.white),
+//         //   popupMenuTheme: PopupMenuThemeData(color: Colors.white),
+//         // ),
+//         // color: Colors.white,
+//         home: Myhome());
+//   }
+// }
+
+// class Myhome extends StatelessWidget {
+//   const Myhome({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+    
+//     return DefaultTabController(
+//       length: 4,
+//       child: SafeArea(
+//         child: Scaffold(
+//           bottomSheet: GestureDetector(
+//             onTap: () {
+//               pageMusic(context);
+//             },
+//             child: FractionallySizedBox(
+//               widthFactor: 1,
+//               heightFactor: 0.1 / 1.1,
+//               child: Container(
+//                 color: Color.fromARGB(255, 71, 71, 71),
+//                 child: Row(
+//                   children: [
+//                     Text('data'),
+//                   ],
+//                 ),
+//               ),
+//             ),
+//           ),
+//           backgroundColor: Colors.black,
+//           appBar: AppBar(
+//               elevation: 0,
+//               backgroundColor: Colors.black,
+//               actions: [
+//                 IconButton(
+//                     onPressed: () {
+//                       Navigator.push(
+//                         context,
+//                         MaterialPageRoute(
+//                           builder: (context) => PageSearch(),
+//                         ),
+//                       );
+//                     },
+//                     icon: Icon(Icons.search)),
+//                 IconButton(
+//                     onPressed: () {
+//                       Navigator.push(
+//                         context,
+//                         MaterialPageRoute(
+//                           builder: (context) => PageSettings(),
+//                         ),
+//                       );
+//                     },
+//                     icon: Icon(Icons.settings))
+//               ],
+//               bottom: TabBar(
+//                 labelPadding: EdgeInsets.only(bottom: 20, top: 10),
+//                 tabs: [
+//                   richTextHead('Songs'),
+//                   richTextHead('Artists'),
+//                   richTextHead('Albums'),
+//                   richTextHead('Playlists')
+//                 ],
+//               )),
+//           body: Container(
+//             child: TabBarView(
+//               children: [
+//                 PageSongs(),
+//                 PageArtists(),
+//                 PageAlbums(),
+//                 PagePlaylists(),
+//               ],
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+
+ // trailing: PopupMenuButton(
+                    //   icon: Icon(
+                    //     Icons.more_horiz_sharp,
+                    //     color: Colors.white,
+                    //   ),
+                    //   itemBuilder: (context) => [
+                    //     PopupMenuItem(
+                    //       child: Text(
+                    //         'Add to Playlist',
+                    //       ),
+                    //     ),
+                    //     PopupMenuItem(
+                    //       child: Text('Add to favourite'),
+                    //     ),
+                    //   ],
+                    // ),
+
+
+
+
+
+
+
+
+
+
+                    -------------------------
+
+                    import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:musico/customs/bottomSheets.dart';
+import 'package:musico/customs/customs.dart';
+import 'package:musico/customs/widgets.dart';
+
+
+
+
+
+
+pageMusic(context) {
+  bool _isPlaying = true;
+
+  return showModalBottomSheet(
+      isScrollControlled: true,
+      // backgroundColor: ,
+      context: context,
+      builder: (context1) {
+        return Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Colors.black, Color.fromARGB(221, 10, 10, 10)],
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter),
+          ),
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height -
+                MediaQuery.of(context).viewPadding.top,
+            child: Container(
+              margin: EdgeInsets.only(right: 10, left: 10),
+              child: Column(
+                children: [
+                  IconButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    icon: Icon(Icons.expand_more_outlined),
+                    color: Colors.grey,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      richText('Shape of you',
+                          size: 20, weight: FontWeight.w600),
+                      IconButton(
+                        onPressed: () {
+                          bottomSheet(context);
+                        },
+                        icon: Icon(
+                          Icons.more_vert_outlined,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [richText('Ed Sheeran')],
+                  ),
+                  SizedBox(
+                    height: 25,
+                  ),
+                  Container(
+                    height: 300,
+                    width: 300,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage(
+                                'assets/Shape_Of_You_(Official_Single_Cover)_by_Ed_Sheeran.png'),
+                            fit: BoxFit.cover),
+                        borderRadius: BorderRadius.all(Radius.circular(8)),
+                        color: Colors.white),
+                  ),
+                  SizedBox(height: 30),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.loop_outlined,
+                          color: Colors.white,
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.favorite_border_outlined,
+                          color: Colors.white,
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.queue_music,
+                          color: Colors.white,
+                        ),
+                      )
+                    ],
+                  ),
+                  SizedBox(
+                    height: 50,
+                  ),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          FontAwesomeIcons.backwardStep,
+                          color: Colors.white,
+                          size: 30,
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          FontAwesomeIcons.play,
+                          size: 50,
+                          color: Colors.white,
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          FontAwesomeIcons.forwardStep,
+                          color: Colors.white,
+                          size: 30,
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      });
+}

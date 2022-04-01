@@ -1,0 +1,4 @@
+#Mon Mar 28 21:40:18 IST 2022
+base.0=/home/rishal/Desktop/sps/week7/musico_ui/musico/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
