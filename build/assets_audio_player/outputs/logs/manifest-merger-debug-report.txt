@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:2:3-53
+		INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+		INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:4:5-77
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:4:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:6:22-65
+application
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:7:5-30:19
+receiver#com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:8:9-10:39
+	android:exported
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:9:13-68
+receiver#com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:11:9-17:20
+	android:exported
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:12:13-67
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:14:13-16:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:15:25-74
+service#com.github.florent37.assets_audio_player.notification.NotificationService
+ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:19:9-28:19
+	android:enabled
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml:20:13-61
+uses-sdk
+INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+		ADDED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml
+		INJECTED from /home/rishal/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/assets_audio_player-3.0.4+1/android/src/main/AndroidManifest.xml

@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:musico/customs/bottomSheets.dart';
 import 'package:musico/customs/customs.dart';
-import 'package:musico/customs/widgets.dart';
 
 pageMusic(context) {
-  bool _isPlaying = true;
+
 
   return showModalBottomSheet(
       isScrollControlled: true,

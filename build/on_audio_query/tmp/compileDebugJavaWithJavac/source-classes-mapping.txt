@@ -1,0 +1,2 @@
+com/lucasjosino/on_audio_query/BuildConfig.java
+ com.lucasjosino.on_audio_query.BuildConfig
